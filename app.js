@@ -13,6 +13,12 @@ let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
+let btn7 = document.getElementById("btn7");
+let btn8 = document.getElementById("btn8");
+let btn9 = document.getElementById("btn9");
+let btn10 = document.getElementById("btn10");
+let btn11 = document.getElementById("btn11");
+let btn12 = document.getElementById("btn12");
 
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
@@ -78,6 +84,71 @@ btn6.addEventListener("click", function(){
 		item = "6";
 		tg.MainButton.show();
 	}
+});
+btn7.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 7!");
+        item = "7";
+        tg.MainButton.show();
+    }
+});
+
+btn8.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 8!");
+        item = "8";
+        tg.MainButton.show();
+    }
+});
+
+btn9.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 9!");
+        item = "9";
+        tg.MainButton.show();
+    }
+});
+
+btn10.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 10!");
+        item = "10";
+        tg.MainButton.show();
+    }
+});
+
+btn11.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 11!");
+        item = "11";
+        tg.MainButton.show();
+    }
+});
+
+btn12.addEventListener("click", function(){
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вы выбрали товар 12!");
+        item = "12";
+        tg.MainButton.show();
+    }
 });
 
 

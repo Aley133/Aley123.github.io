@@ -7,17 +7,18 @@ body {
 }
 
 .container {
-	max-width: 390px;
+	max-width: 290px;
+
 }
 
 .inner {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
 }
 
 .img {
-	width: 150px;
+	width: 100px;
 }
 
 .item {
